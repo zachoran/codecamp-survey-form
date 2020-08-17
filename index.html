@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<style>
+#body {
+    background-color: coral;
+    background-image: url("https://images.wallpapersden.com/image/download/cypher-4k-valorant_70701_5120x2880.jpg");
+    height: 100%;
+    background-position: -200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 25px;
+}
+
+#title {
+    font-family: monospace;
+    font-size: 70px;
+    color: aquamarine;
+    text-align: center;
+}
+
+#name {
+    font-family: monospace;
+    font-size: 30px;
+    color: aquamarine;
+}
+
+#legend {
+    font-family: monospace;
+    font-size: 30px;
+    color: aquamarine;
+}
+
+#fieldset-1 {
+    font-family: monospace;
+    font-size: 20px;
+    color:navy;
+    border: 0px;
+}
+
+#dropdown-weapons {
+    font-family: monospace;
+    font-size: 30px;
+    color: aquamarine;
+}
+
+#fieldset-2 {
+    font-family: monospace;
+    font-size: 20px;
+    color:navy;
+    border: 0px;
+}
+
+#dropdown-maps {
+    font-family: monospace;
+    font-size: 30px;
+    color: aquamarine;
+}
+
+#fieldset-3 {
+    font-family: monospace;
+    font-size: 20px;
+    color:navy;
+    border: 0px;
+}
+
+#self-play {
+    font-family: monospace;
+    font-size: 30px;
+    color: aquamarine;
+}
+
+#email {
+    font-family: monospace;
+    font-size: 30px;
+    color: aquamarine;  
+}
+
+#number {
+    font-family: monospace;
+    font-size: 30px;
+    color: aquamarine;
+}
+
+#comments {
+    font-family: monospace;
+    font-size: 30px;
+    color: aquamarine;
+}
+
+#submit {
+    font-family: monospace;
+    font-size: 30px;
+    color: aquamarine;
+}
+
+
+#footer {
+    font-family: monospace;
+    font-size: 20px;
+    color:navy;
+}
+
+
+
+
+</style>
+<body id="body">
+<div id="main">
+
+    <h1 id="title"><u>Valorant Proficiency Survey</u></h1>
+
+    <form id="survey-form">
+        <div id="name">Please enter your name:</div>
+            <br>
+            <input type="text" placeholder="Name">
+            <br>
+            <br>
+
+        <fieldset id="fieldset-1">
+            <legend id="legend">Select your Valorant Skill Level:</legend>
+            <input id="one" type="radio" name="skill-level" value="one"
+            <label for="one">Noob</label><br>
+            <input id="two" type="radio" name="skill-level" value="two"
+            <label for="two">Wood 1</label><br>
+            <input id="three" type="radio" name="skill-level" value="three"
+            <label for="three">BBQ Chicken</label><br>
+        </fieldset>
+
+            <br>
+            <br>
+
+                <div id="dropdown-weapons">Select your favorite weapon:</div>
+        
+            <br>
+                
+            <form>
+                <select name = "Weapons">
+                    <option value = "Vandal">Vandal</option>
+                    <option value = "Phantom">Phantom</option>
+                    <option value = "Operator">Operator</option>
+                    <option value = "Sheriff">Sherriff</option>
+                    <option value = "Ghost">Ghost</option>
+                    <option value = "Judge">Judge</option>
+                </select>
+            </form>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+
+        <fieldset id="fieldset-2">
+            <legend id="legend">Would you to recommend Valorant to a friend?</legend>
+            <input id="one" type="radio" name="skill-level" value="one"
+            <label for="one">This game is a blight on humaity.</label><br>
+            <input id="two" type="radio" name="skill-level" value="two"
+            <label for="two">Friends?</label><br>
+            <input id="three" type="radio" name="skill-level" value="three"
+            <label for="three">Brain...smooth</label><br>
+        </fieldset>
+
+            <br>
+            <br>
+
+                <div id="dropdown-maps">Select your favorite map:</div>
+
+            <br>
+
+            <form>
+                <select name = "Maps">
+                    <option value = "Ascent">Ascent</option>
+                    <option value = "Bind">Bind</option>
+                    <option value = "Haven">Haven</option>
+                    <option value = "Split">Split</option>
+                </select>
+            </form>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+
+
+        <fieldset id="fieldset-3">
+            <legend id="legend">How likely are you to uninstall?</legend>
+            <input id="one" type="radio" name="skill-level" value="one"
+            <label for="one">I will.</label><br>
+            <input id="two" type="radio" name="skill-level" value="two"
+            <label for="two">I will.</label><br>
+            <input id="three" type="radio" name="skill-level" value="three"
+            <label for="three">I will.</label><br>
+        </fieldset>
+
+            <br>
+            <br>
+
+        <div id="self-play">Select a date to play by yourself!</div>
+            <br>
+            <input type="date">
+            <br>
+            <br>
+        <div id="email">Please enter your email:</div>
+            <br>
+            <input type="email" placeholder="Email Address">
+            <br>
+            <br>
+        <div id="number">Please enter your phone number:</div>
+            <br>
+            <input type="text" placeholder="Phone Number">
+            <br>
+            <br>
+        <div id="comments">Add aditional comments here:</div>
+            <br>
+            <textarea name="additional-comments" placeholder="Fire in the hole!" cols="50" rows="5"></textarea>
+            <br>
+            <br>
+        <div id="submit">Click the button below to submit your survey!</div>    
+            <br>
+            <input type="submit">
+            <br>
+            <br>
+
+    </form>
+
+            <br>
+            <br>
+
+    <footer id="footer">Thank you for participating in this survey.<footer>
+
+</div>
+</body>
+</html>
